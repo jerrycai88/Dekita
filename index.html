@@ -152,11 +152,11 @@
                     <div class="card">
                         <h3>処理の流れ</h3>
                         <ol>
-                          <li><strong>View（JSP/HTML）：</strong>ユーザー操作 → HTTPリクエスト送信</li>
-                          <li><strong>Controller（Servlet）：</strong>リクエスト受信 → ビジネスロジック実行</li>
-                          <li><strong>DAO：</strong>データアクセス層で JDBC を使用し MySQL に接続</li>
-                          <li><strong>Model（Bean）：</strong>取得データをオブジェクトに格納</li>
-                          <li><strong>View（JSP）：</strong>データを動的に表示 → レスポンス返却</li>
+                          <li><strong>View（JSP/HTML）：</strong> ユーザー操作 → HTTPリクエスト送信</li>
+                          <li><strong>Controller（Servlet）：</strong> リクエスト受信 → ビジネスロジック実行</li>
+                          <li><strong>Model（Bean）：</strong> 処理に必要なデータをJavaBeanとして保持</li>
+                          <li><strong>DAO：</strong> JDBCを使用してMySQLに接続し、データの取得・更新を行う</li>
+                          <li><strong>View（JSP）：</strong> データを動的に表示 → レスポンス返却</li>
                         </ol>
                     </div>
                 </div>
@@ -195,5 +195,6 @@
     </footer>
     </body>
 </html>
+
 
 
